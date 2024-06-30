@@ -2,4 +2,4 @@
 
 https://catsmoker.github.io/boulhada.cv
 
-$\color{red}{\textsf{Read Licence Before Use}}$
+$\color{red}{\textsf{Read License Before Use}}$
