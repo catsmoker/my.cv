@@ -1,3 +1,5 @@
 # BOULHADA.cv
+
 https://catsmoker.github.io/boulhada.cv
-#read licence before use
+
+$\color{red}{\textsf{Read Licence Before Use}}$
