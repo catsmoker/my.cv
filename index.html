@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: 14px;
+            line-height: 1.6;
+            resize: vertical;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #f0f0f0;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Agree to these Terms to Show My CV</h1>
+    <p>
+        Please read and accept the terms and services to proceed.
+    </p>
+    <textarea readonly>
+        # License
+
+        This repository and all its contents, including the PDF file(s), are subject to the following terms:
+
+        ## Restrictions
+
+        1. **No Copying**: You may not copy any part of the PDF file(s) or the content within them.
+        2. **No Modification**: You may not modify the PDF file(s) or any part of the content within them.
+        3. **No Publishing**: You may not publish the PDF file(s) or any part of the content within them, in any form, online or offline.
+
+        ## Limited Use
+
+        You are allowed to view the PDF file(s) for personal use only. Any other use requires explicit written permission from the repository owner.
+
+        ## Prohibited Uses
+
+        1. You may not use this repository or its contents for any commercial purposes without prior written consent.
+        2. You may not use the repository in any way that could harm, disable, overburden, or impair it.
+        3. You may not use the repository to transmit any unlawful, harmful, or objectionable content.
+
+        ## User Obligations
+
+        1. **Compliance**: You agree to comply with all applicable laws and regulations regarding your use of the repository.
+        2. **Accuracy**: You must ensure that any information you provide is accurate and up-to-date.
+        3. **Security**: You must not attempt to gain unauthorized access to any part of the repository.
+
+        ## Intellectual Property
+
+        All intellectual property rights in the repository and its contents are owned by the repository owner. You acknowledge and agree that you do not acquire any ownership rights by using the repository.
+
+        ## Limitation of Liability
+
+        In no event shall the repository owner be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from your use of the repository or its contents.
+
+        ## Disclaimer
+
+        This repository and its contents are provided "as is" without any warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+        ## Changes to Terms
+
+        The repository owner reserves the right to modify these terms at any time. Your continued use of the repository after any such changes shall constitute your consent to such changes.
+
+        ## Contact
+
+        For any permissions, questions, or concerns, please contact [BOULHADA08@GMAIL.COM].
+
+        ---
+
+        By using this repository, you agree to abide by these terms.
+    </textarea>
+    <br>
+    <button onclick="acceptTerms()">I Agree</button>
+    <button onclick="declineTerms()">I Disagree</button>
+
+    <script>
+        function acceptTerms() {
+            window.location.href = "content.html"; // Replace with the actual path to your CV or content page
+        }
+
+        function declineTerms() {
+            window.location.href = "decline.html"; // Replace with the path to a page explaining declined access
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Catsmoker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
